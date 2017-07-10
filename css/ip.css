@@ -4,8 +4,8 @@ body {
 }
 .container{
   height: 100px
-  float: left;
-  width: 33.33333%;
+  width: 100%;
+  background: purple;
 }
 .header {
   background: blue;
