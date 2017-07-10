@@ -5,58 +5,106 @@
     <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/css/bootstrap.min.css" integrity="sha384-BVYiiSIFeK1dGmJRAkycuHAHRg32OmUcww7on3RYdg4Va+PmSTsz/K68vbdEjh4u" crossorigin="anonymous">
     <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/css/bootstrap-theme.min.css" integrity="sha384-rHyoN1iRsVXV4nD0JutlnGaslCJuC7uwjduW9SVrLvRYooPp2bWYgmgJQIXwl/Sp" crossorigin="anonymous">
     <script src="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/js/bootstrap.min.js" integrity="sha384-Tc5IQib027qvyjSMfHjOMaLkfuWVxZxUPnCJA7l2mCWNIpG9mGCD8wGNIcPD7Txa" crossorigin="anonymous"></script>
+    <style>
+  body {
+      font: 20px Montserrat, sans-serif;
+      line-height: 1.8;
+      color: black;
+  }
+  p {font-size: 16px;}
+  .margin {margin-bottom: 45px;}
+  .bg-1 {
+      background-color: #1abc9c; /* Green */
+      color: #ffffff;
+  }
+  .bg-2 {
+      background-color: #474e5d; /* Dark Blue */
+      color: #ffffff;
+  }
+  .bg-3 {
+      background-color: #ffffff; /* White */
+      color: #555555;
+  }
+  .bg-4 {
+      background-color: #2f2f2f; /* Black Gray */
+      color: #fff;
+  }
+  .container-fluid {
+      padding-top: 70px;
+      padding-bottom: 70px;
+  }
+  .navbar {
+      padding-top: 15px;
+      padding-bottom: 15px;
+      border: 0;
+      border-radius: 0;
+      margin-bottom: 0;
+      font-size: 12px;
+      letter-spacing: 5px;
+  }
+  .navbar-nav  li a:hover {
+      color: #1abc9c !important;
+  }
+  </style>
+</head>
+<body>
 
-    <title=""></title>
-  </head>
-  <div class="jumbotron text-center">
-  <h1><i>Me, Myself & I</i></h1>
+<nav class="navbar navbar-default">
+<div class="container">
+  <div class="navbar-header">
+    <button type="button" class="navbar-toggle" data-toggle="collapse" data-target="#myNavbar">
+      <span class="icon-bar"></span>
+      <span class="icon-bar"></span>
+      <span class="icon-bar"></span>
+    </button>
+    <a class="navbar-brand" href="#">Me,Myself & I</a>
   </div>
-  <body>
-    <div class="container-fluid">
-      <p>Click on the Menu</p>
-      <div class="panel-group">
-        <div class="panel panel-default">
-          <div class="panel-heading">
-            <h4 class="panel-title">
-             <a data-toggle="collapse" href="#collapse1">Collapsible panel</a>
-            </h4>
-      </div>
-      <div id="collapse1" class="panel-collapse collapse">
-        <div class="panel-body">About Me</div>
-        <div class="panel-footer">Portfolio</div>
-        <div class="panel-footer">Contacts</div>
-      </div>
-    </div>
+  <div class="collapse navbar-collapse" id="myNavbar">
+    <ul class="nav navbar-nav navbar-right">
+      <li><a href="#">About Me</a></li>
+      <li><a href="#">Portfolio</a></li>
+      <li><a href="#">Contacts</a></li>
+    </ul>
   </div>
-  <p>“Never forget what you are, the rest of the world will not. Wear it like armor and it can never be used to hurt you.” ~Tyrion Lannister</p>
-    <div class="Aboutme"><h1>About Me</h1>
-      <img src="images/about.png" alt="about me" style="width:10%;height:10%;">
-        <p>My name is Mweru Muchai. </p>
-          <p>When I am not working, I am either playing tennis with my friends or binge watching my favorite series.<span> </p>
-    </div>
+</div>
+</nav>
 
-    <div class="Portfolio"><h1>Portfolio</h1>
-      <img src="images/portfolio.jpg" alt="portfolio" style="width:10%;height:10%;">
-        <h1><u>Work Experience</u></h1>
-          <strong>Realtime Techology Ltd</strong>
-          <ol>Job Title:Database Developer</ol>
-          <ol>Duration: February 2014-Current</ol>
-          <h1><u>Academic Profile</u></h1>
-          <ol>Kenya College of Accountancy University</ol>
-          <ol>Bachelor of Science degree in Information Technology</ol>
-          <ol>January 2011 - August 2012</ol>
-    </div>
+<div class="container-fluid bg-1 text-center">
+<h3 class="margin">About Me</h3>
+<img src="images/about.jpg" class="img-responsive img-circle margin" style="display:inline" alt="Bird" width="350" height="350">
+<p>My name is Mweru Muchai. I enjoy researching on random stuff on the internet. When I am not working, I'm either binge watching one of my favorite series i.e Games Of Thrones</p>
+</div>
 
-    <div class="Contact"><u><h1>Contact</h1></u>
-      <img src="images/contact.jpg" alt="contact" style="width:10%;height:10%;">
-        <ol>Name:  Mweru Muchai</ol>
-        <ol>Email: mwerumuchai@gmail.com </ol>
-    </div>
+<div class="container-fluid bg-2 text-center">
+<h3 class="margin">Portfolio</h3>
+<p> </p>
+<a href="#" class="btn btn-default btn-lg">
+  <span class="glyphicon glyphicon-search"></span> Search
+</a>
+</div>
 
-      <a href="https://www.facebook.com"><img src ="images/fb.JPG"></a>
-      <a href="https://www.twitter.com"><img src ="images/twitter.png"></a>
+<div class="container-fluid bg-3 text-center">
+<h3 class="margin"><b>Contacts</h3><br>
+<div class="row">
+  <div class="col-sm-4">
+    <ol>Name: Mweru Muchai</ol>
+    <ol>Email: mwerumuchai@gmail.com</ol>
+    <img src="images/contact.jpg" class="img-responsive margin" style="width:100%" alt="Image">
+  </div>
+  <div class="col-sm-4">
+    <p>Facebook</p>
+    <img src="images/fb.jpg" class="img-responsive margin" style="width:100%" alt="Image">
+  </div>
+  <div class="col-sm-4">
+    <p>twitter</p>
+    <img src="images/twitter.png" class="img-responsive margin" style="width:100%" alt="Image">
+  </div>
+</div>
+</div>
 
-      <footer>Copyright &copy;mwerumuchai 2017</footer>
-    </div>
-  </body>
+<footer class="container-fluid bg-4 text-center">
+<p>Copyright @2017<a href="#">Mweru Muchai</a></p>
+</footer>
+
+</body>
 </html>
