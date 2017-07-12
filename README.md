@@ -12,4 +12,12 @@ As time goes on, as I learn new stuff, I'll be able to integrate them in this pr
 1. Install Atom
 2. Knowledge in HTML and CSS
 
-..* Link to my github pages
+###Link-to-my-github-pages
+[Check it out here](https://github.com/mwerumuchai/mwerumuchai.github.io.git)
+
+
+###Copyright-and-license-information
+Copyright (c) 2017 mwerumuchai
+
+The content of this repository bound by the following LICENCE(S)
+*.*To be added later
