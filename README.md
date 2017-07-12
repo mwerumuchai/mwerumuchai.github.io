@@ -1,5 +1,6 @@
 # me-myself-i
 **Author Name**: Mweru Muchai
+
 **Project Name**: Me, Myself and I
 
 
@@ -8,5 +9,7 @@ This is my first Independent project. It includes custom-made stylesheet and HTM
 As time goes on, as I learn new stuff, I'll be able to integrate them in this project.
 
 ### Project-Setup-Instructions
-Install Atom
-Knowledge in HTML and CSS
+1. Install Atom
+2. Knowledge in HTML and CSS
+
+..* Link to my github pages
