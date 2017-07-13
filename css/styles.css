@@ -15,8 +15,14 @@ body{
     justify-content: space-between;
 }
 .menu h1{
-    color: #fff;
+    color: black;
     margin: 0;
+}
+.container-fluid{
+  background: white;
+}
+.navbar{
+  color: black;
 }
 h3{
     font-size: 1.1em;
