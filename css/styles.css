@@ -1,0 +1,95 @@
+body{
+    background: -webkit-linear-gradient(rgba(0,0,0,0.5), rgba(0,0,0,0.5));
+    background: -o-linear-gradient(rgba(0,0,0,0.5), rgba(0,0,0,0.5));
+    background: linear-gradient(rgba(0,0,0,0.5), rgba(0,0,0,0.5)),
+        url(../img/1.jpg) no-repeat center center fixed;
+    background-size: cover;
+    height: auto;
+    margin: 5% 15% 0 15%;
+    font-family: Sans-Serif;
+    position: relative;
+    padding-bottom: 50px;
+}
+.menu{
+    display: flex;
+    justify-content: space-between;
+}
+.menu h1{
+    color: black;
+    margin: 0;
+}
+.container-fluid{
+  background: white;
+}
+.navbar{
+  color: black;
+}
+h3{
+    font-size: 1.1em;
+}
+ul{
+    margin: 0 40px;
+}
+em{
+    font-size: .95em;
+}
+iframe{
+    width: 100%;
+}
+label{
+    font-weight: bold;
+}
+nav li{
+    list-style: none;
+    display: inline-block;
+}
+nav a{
+    color: #fff;
+    font-size: 2em;
+    margin-left: 20px;
+}
+.header-wrapper{
+}
+.header-text{
+    font-size: 1.8em;
+    color: #fff;
+    text-align: center;
+}
+.header-text a{
+    color: darkmagenta;
+}
+.social{
+    text-align: center;
+    margin-bottom: 30px;
+}
+.row{
+    min-height: 50vh;
+    background: rgba(255,255,255,0.93);
+    margin-bottom: 40px;
+    padding: 20px 50px 50px 50px;
+}
+.row h1{
+    text-transform: uppercase;
+    text-align: center;
+}
+.about{
+
+}
+.portfolio{
+
+}
+small{
+    position: absolute;
+    bottom: 0;
+}
+.contacts{
+
+}
+small{
+    position: absolute;
+    bottom: 10px;
+    right: 0;
+    left: 0;
+    text-align: center;
+    color: #fff;
+}
