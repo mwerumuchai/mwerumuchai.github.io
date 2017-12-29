@@ -1,7 +1,7 @@
-# me-myself-i
+
 **Author Name**: Mweru Muchai
 
-**Project Name**: Me, Myself and I
+**Project Name**: My Portfolio
 
 
 ### Description-of-the-project:
@@ -13,7 +13,7 @@ As time goes on, as I learn new stuff, I'll be able to integrate them in this pr
 2. Knowledge in HTML and CSS
 
 ### Link-to-my-github-pages:
-[Check it out here](https://github.com/mwerumuchai/mwerumuchai.github.io.git)
+[Check it out here](https://mwerumuchai.github.io/)
 
 
 ### Copyright-and-license-information:
