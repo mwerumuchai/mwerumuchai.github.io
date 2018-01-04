@@ -4,7 +4,7 @@
   <head>
     <meta charset="utf-8">
     <meta name="viewport" content="width=device-width, initial-scale=1">
-    <title>Esther Muchai - Full Stack Developer</title>
+    <title>Esther Muchai - Web Developer/Designer</title>
     <meta name="description" content="">
     <meta name="author" content="">
 
@@ -35,7 +35,28 @@
     <![endif]-->
   </head>
 
-  <body id="page-top" data-spy="scroll" data-target=".navbar-fixed-top">
+  <body id="page-top" data-spy="scroll" data-target=".navbar-fixed-top navbar-inverse opaque-navbar">
+    <!-- Navigation -->
+    <div id="nav">
+      <nav class="navbar navbar-custom">
+        <div class="container">
+          <div class="navbar-header">
+            <button type="button" class="navbar-toggle" data-toggle="collapse" data-target=".navbar-main-collapse"> <i class="fa fa-bars"></i> </button>
+            <a class="navbar-brand page-scroll" href="#page-top" style="color:white;font-size:24px;">Home</a> </div>
+
+          <!-- Collect the nav links, forms, and other content for toggling -->
+          <div class="collapse navbar-collapse navbar-right navbar-main-collapse">
+            <ul class="nav navbar-nav">
+              <!-- Hidden li included to remove active class from about link when scrolled up past about section -->
+              <li class="hidden"> <a href="#page-top"></a> </li>
+              <li> <a class="page-scroll" href="#about">About</a> </li>
+              <li> <a class="page-scroll" href="#portfolio">Projects</a> </li>
+              <li> <a class="page-scroll" href="#contact">Contact</a> </li>
+            </ul>
+          </div>
+        </div>
+      </nav>
+    </div>
 
     <!-- Header -->
     <header id="header">
@@ -44,81 +65,58 @@
           <div class="row">
             <div class="intro-text">
               <h1>Hello, I'm <span class="name">Esther Muchai</span></h1>
-              <p>Full Stack Developer</p>
+              <p>Web Developer/Designer</p>
               <a href="#about" class="btn btn-default btn-lg page-scroll">Learn More</a> </div>
           </div>
         </div>
       </div>
     </header>
-    <!-- Navigation -->
-    <div id="nav">
-      <nav class="navbar navbar-custom">
-        <div class="container">
-          <div class="navbar-header">
-            <button type="button" class="navbar-toggle" data-toggle="collapse" data-target=".navbar-main-collapse"> <i class="fa fa-bars"></i> </button>
-            <a class="navbar-brand page-scroll" href="#page-top">Home</a> </div>
 
-          <!-- Collect the nav links, forms, and other content for toggling -->
-          <div class="collapse navbar-collapse navbar-right navbar-main-collapse">
-            <ul class="nav navbar-nav">
-              <!-- Hidden li included to remove active class from about link when scrolled up past about section -->
-              <li class="hidden"> <a href="#page-top"></a> </li>
-              <li> <a class="page-scroll" href="#about">About</a> </li>
-              <li> <a class="page-scroll" href="#skills">Skills</a> </li>
-              <li> <a class="page-scroll" href="#portfolio">Portfolio</a> </li>
-              <li> <a class="page-scroll" href="#resume">Resume</a> </li>
-              <li> <a class="page-scroll" href="#contact">Contact</a> </li>
-            </ul>
-          </div>
-        </div>
-      </nav>
-    </div>
     <!-- About Section -->
     <div id="about">
-      <div class="container">
-        <div class="section-title text-center center">
-          <h2>About Me</h2>
-          <hr>
-        </div>
-        <div class="row">
-          <div class="col-md-12 text-center"></div>
-          <div class="col-md-8 col-md-offset-2">
+      <div class="row">
+        <div class="col-md-1"></div>
+        <div class="col-md-4">
+          <div class="section-title text-center center">
+            <h2>About Me</h2>
+            <hr>
+            <!-- <div class="col-md-8 col-md-offset-2"> -->
             <div class="about-text">
-              <p>An ambitious full stack developer with a strong technical background, who possesses self-discipline and the ability to work with the minimum of supervision.
-                <br> I have exposure to a wide range of technologies & able to play a key role in diagnosing hardware and software problems and to ensure that quality solutions meet business objectives.
-                <br> Possessing a good team spirit, deadline orientated and having the ability to organize and present complex solutions clearly and accurately.</p>
-              <p class="text-center"><a class="btn btn-primary" href="#"><i class="fa fa-download"></i> Download Resume</a></p>
+              <p>My career began as a network administrator but all that changed in 2014 when I got a job at a software firm. Throughout the years , my curiosity in software developement rose and I decided to fully indulge in this field by joining
+                <a href="https://moringaschool.com/">MORINGA SCHOOL</a> in September 2017. This is where I developed a passion for designing amazing user experience functionalities. Apart from that, I get chances to interact with various developers which
+                helps in individual growth.</p>
             </div>
           </div>
+          <div class="col-md-2"></div>
+          <!-- </div> -->
+
         </div>
-      </div>
-    </div>
-    <!-- Skills Section -->
-    <div id="skills" class="text-center">
-      <div class="container">
-        <div class="section-title center">
-          <h2>Skills</h2>
-          <hr>
-        </div>
-        <div class="row">
-          <div class="col-md-4 col-sm-6 skill"> <span class="chart" data-percent="95"> <span class="percent">95</span> </span>
-            <h4>HTML5</h4>
+        <div class="col-md-4">
+          <div class="section-title text-center center">
+            <h2>Skills</h2>
+            <hr>
           </div>
-          <div class="col-md-4 col-sm-6 skill"> <span class="chart" data-percent="85"> <span class="percent">85</span> </span>
-            <h4>CSS3</h4>
+          <div class="row">
+            <div class="col-md-3">
+              <h5>HTML</h5>
+              <p><img src="img/html5.png" class="img-responsive" alt="Project Title">HTML5</p>
+            </div>
+            <div class="col-md-3">
+              <h5>CSS</h5>
+              <p><img src="img/css3.png" class="img-responsive" alt="Project Title">CSS3
+                <img src="img/bootstrap.png" class="img-responsive" alt="Project Title">Bootstrap</p>
+            </div>
+            <div class="col-md-3">
+              <h5>JAVASCRIPT</h5>
+              <p><img src="img/javascript.png" class="img-responsive" alt="Project Title">Javascript
+                <img src="img/jquery.png" class="img-responsive" alt="Project Title">jQuery</p>
+            </div>
+            <div class="col-md-3">
+              <h5>DATABASE</h5>
+              <p><img src="img/postgresql .png" class="img-responsive" alt="Project Title">Postgresql</p>
+            </div>
           </div>
-          <div class="col-md-4 col-sm-6 skill"> <span class="chart" data-percent="80"> <span class="percent">80</span> </span>
-            <h4>jQuery</h4>
-          </div>
-          <div class="col-md-4 col-sm-6 skill"> <span class="chart" data-percent="80"> <span class="percent">80</span> </span>
-            <h4>WordPress</h4>
-          </div>
-          <div class="col-md-4 col-sm-6 skill"> <span class="chart" data-percent="80"> <span class="percent">80</span> </span>
-            <h4>Python</h4>
-          </div>
-          <div class="col-md-4 col-sm-6 skill"> <span class="chart" data-percent="65"> <span class="percent">65</span> </span>
-            <h4>Javascript</h4>
-          </div>
+
         </div>
       </div>
     </div>
@@ -134,7 +132,8 @@
             <li>
               <ol class="type">
                 <li><a href="#" data-filter="*" class="active">All</a></li>
-                <li><a href="#" data-filter=".web">Web Design</a></li>
+                <li><a href="#" data-filter=".web">Javascript</a></li>
+                <li><a href="#" data-filter=".branding">Python - Django</a></li>
               </ol>
             </li>
           </ul>
@@ -145,244 +144,50 @@
             <div class="col-sm-6 col-md-3 col-lg-3 web">
               <div class="portfolio-item">
                 <div class="hover-bg">
-                  <a href="img/portfolio/01-large.jpg" title="Project description" rel="prettyPhoto">
+                  <h4>
+                      <a href="img/portfolio/01-large.jpg" title="Technologies used: Ember, Firebase, GoogleMap, Twitter API" rel="prettyPhoto"></h4>
+                  <div class="hover-text">
+                    <h4>Traffic Tracker</h4>
+                    <small>This is a simple Web application that allows users to track traffic on specified routes.</small> </div>
+                  <img src="img/projects/traft.jpg" class="img-responsive" alt="Traffic Tracker"> </a>
+                </div><a href="https://traffic-tracker-70c62.firebaseapp.com/">View Site</a>
+              </div>
+            </div>
+            <div class="col-sm-6 col-md-3 col-lg-3 branding">
+              <div class="portfolio-item">
+                <div class="hover-bg">
+                  <a href="img/projects/unsplashclone.png" title="Technologies used: Python3.6, Django, Bootstrap, Postgresql Database, CSS, HTML" rel="prettyPhoto">
                     <div class="hover-text">
-                      <h4>Project Title</h4>
-                      <small>Web Design</small> </div>
-                    <img src="img/portfolio/01-small.jpg" class="img-responsive" alt="Project Title"> </a>
-                </div>
+                      <h4>Unsplash-Clone</h4>
+                      <small>This is a cloned web application for unsplash where users can upload photos and download photos from other users.</small> </div>
+                    <img src="img/projects/unsplash.png" class="img-responsive" alt="Project Title"> </a>
+                </div><a href="https://unsplash-clone2.herokuapp.com/">View Site</a>
               </div>
             </div>
             <div class="col-sm-6 col-md-3 col-lg-3 web">
               <div class="portfolio-item">
                 <div class="hover-bg">
-                  <a href="img/portfolio/03-large.jpg" title="Project description" rel="prettyPhoto">
+                  <a href="img/projects/githubuserlookup.png" title="Technologies used: HTML, CSS, Bootstrap, JavaScript, JQuery, GitHub API" rel="prettyPhoto">
                     <div class="hover-text">
-                      <h4>Project Title</h4>
-                      <small>Web Design</small> </div>
-                    <img src="img/portfolio/03-small.jpg" class="img-responsive" alt="Project Title"> </a>
+                      <h4>Github User Lookup</h4>
+                      <small>A simple JavaScript application for searching users on Github using their usernames</small> </div>
+                    <img src="img/projects/userlookup.png" class="img-responsive" alt="Github User Lookup"> </a>
                 </div>
+                <a href="https://mwerumuchai.github.io/mc5-ip1/">View Site</a>
               </div>
             </div>
-            <div class="col-sm-6 col-md-3 col-lg-3 web">
+            <div class="col-sm-6 col-md-3 col-lg-3 branding">
               <div class="portfolio-item">
                 <div class="hover-bg">
-                  <a href="img/portfolio/04-large.jpg" title="Project description" rel="prettyPhoto">
+                  <a href="img/projects/autos.png" title="Technologies used: Python3.6, Django, Bootstrap, Postgresql Database, CSS, HTML" rel="prettyPhoto">
                     <div class="hover-text">
-                      <h4>Project Title</h4>
-                      <small>Web Design</small> </div>
-                    <img src="img/portfolio/04-small.jpg" class="img-responsive" alt="Project Title"> </a>
+                      <h4>Autos</h4>
+                      <small>This application helps users to view more details about cars and be able to rate them.</small> </div>
+                    <img src="img/projects/jeep.jpg" class="img-responsive" alt="Project Title"> </a>
                 </div>
+                <a href="https://news-highlights.herokuapp.com/">View Site</a>
               </div>
             </div>
-            <div class="col-sm-6 col-md-3 col-lg-3 web">
-              <div class="portfolio-item">
-                <div class="hover-bg">
-                  <a href="img/portfolio/08-large.jpg" title="Project description" rel="prettyPhoto">
-                    <div class="hover-text">
-                      <h4>Project Title</h4>
-                      <small>Web Design</small> </div>
-                    <img src="img/portfolio/08-small.jpg" class="img-responsive" alt="Project Title"> </a>
-                </div>
-              </div>
-            </div>
-          </div>
-        </div>
-      </div>
-    </div>
-    <!-- Resume Section -->
-    <div id="resume" class="text-center">
-      <div class="container">
-        <div class="section-title center">
-          <h2>Experience</h2>
-          <hr>
-        </div>
-        <div class="row">
-          <div class="col-lg-12">
-            <ul class="timeline">
-              <li>
-                <div class="timeline-image">
-                  <h4>Feb 2014 <br>
-                - <br>
-                Sep 2017 </h4>
-                </div>
-                <div class="timeline-panel">
-                  <div class="timeline-heading">
-                    <h4>Realtime Technology Ltd</h4>
-                    <h4 class="subheading">IT Technician</h4>
-                  </div>
-                  <div class="timeline-body">
-                    <ul>
-                      <li>Design, develop and implement database systems based on customer requirements using Sybase (Version 9 and 16) and PowerBuilder.</li>
-                      <li>Optimize database systems for performance efficiency.</li>
-                      <li>Ensure data quality and integrity in databases.</li>
-                      <li>Identify any issues related to database performance and provide corrective measures.</li>
-                    </ul>
-                  </div>
-                </div>
-              </li>
-              <li class="timeline-inverted">
-                <div class="timeline-image">
-                  <h4>Oct 2013 <br>
-                - <br>
-                Jan 2014 </h4>
-                </div>
-                <div class="timeline-panel">
-                  <div class="timeline-heading">
-                    <h4>NKG Coffee Mills</h4>
-                    <h4 class="subheading">Network Administrator</h4>
-                  </div>
-                  <div class="timeline-body">
-                    <ul>
-                      <li>Secure network by developing network access, monitoring, control, and evaluation; maintaining documentation. </li>
-                      <li>Prepare users by designing and conducting training programs; providing references and support. </li>
-                      <li>Upgrade network by conferring with vendors; developing, testing, evaluating, and installing enhancements. </li>
-                      <li>Update job knowledge by participating in educational opportunities; reading professional publications; maintaining personal networks; participating in professional organizations.</li>
-                    </ul>
-                  </div>
-                </div>
-              </li>
-              <li>
-                <div class="timeline-image">
-                  <h4>Aug 2012 <br>
-                - <br>
-                Nov 2012 </h4>
-                </div>
-                <div class="timeline-panel">
-                  <div class="timeline-heading">
-                    <h4>Ministry of Public works</h4>
-                    <h4 class="subheading">Intern</h4>
-                  </div>
-                  <div class="timeline-body">
-                    <ul>
-                      <li>Networking and installation of Computer software</li>
-                      <li>Preventive maintenance and user support </li>
-                      <li>Installation of computer software, hardware and peripherals</li>
-                    </ul>
-                  </div>
-                </div>
-              </li>
-              <li class="timeline-inverted">
-                <div class="timeline-image">
-                  <h4>July 2010 <br>
-                - <br>
-                Aug 2012 </h4>
-                </div>
-                <div class="timeline-panel">
-                  <div class="timeline-heading">
-                    <h4>Eco-Homes ltd</h4>
-                    <h4 class="subheading">Network Administrator</h4>
-                  </div>
-                  <div class="timeline-body">
-                    <ul>
-                      <li>Installation, configuration and updating of operating systems and other software</li>
-                      <li>Troubleshooting and diagnosis of faulty computers. </li>
-                      <li>User support in both hardware and software issues. </li>
-                      <li>Network troubleshooting.</li>
-                    </ul>
-                  </div>
-                </div>
-              </li>
-              <li>
-                <div class="timeline-image">
-                  <h4>Jan 2010 <br>
-                - <br>
-                May 2010 </h4>
-                </div>
-                <div class="timeline-panel">
-                  <div class="timeline-heading">
-                    <h4>Redlands Roses ltd</h4>
-                    <h4 class="subheading">Intern</h4>
-                  </div>
-                  <div class="timeline-body">
-                    <ul>
-                      <li>Data entry and backup management. </li>
-                      <li>Networking and network management and system support.</li>
-                      <li> Develop Access database for different departments.</li>
-                    </ul>
-                  </div>
-                </div>
-              </li>
-            </ul>
-          </div>
-        </div>
-      </div>
-      <div class="container">
-        <div class="section-title center">
-          <h2>Education</h2>
-          <hr>
-        </div>
-        <div class="row">
-          <div class="col-lg-12">
-            <ul class="timeline">
-
-              <!-- Education Section-->
-
-              <li>
-                <div class="timeline-image">
-                  <h4>Jan 2010 <br>
-                - <br>
-                Aug 2012 </h4>
-                </div>
-                <div class="timeline-panel">
-                  <div class="timeline-heading">
-                    <h4>Kenya College of Accountancy University </h4>
-                    <h4 class="subheading">Bachelor of Science degree in information technology</h4>
-                  </div>
-                  <div class="timeline-body">
-
-                  </div>
-                </div>
-              </li>
-              <li class="timeline-inverted">
-                <div class="timeline-image">
-                  <h4>2009 <br>
-                - <br>
-                2010 </h4>
-                </div>
-                <div class="timeline-panel">
-                  <div class="timeline-heading">
-                    <h4> Jomo Kenyatta University of Agriculture and Technology  </h4>
-                    <h4 class="subheading">Cisco certified networking associate (CCNA 1)</h4>
-                  </div>
-                  <div class="timeline-body">
-
-                  </div>
-                </div>
-              </li>
-              <li>
-                <div class="timeline-image">
-                  <h4>2008 <br>
-                - <br>
-                2009 </h4>
-                </div>
-                <div class="timeline-panel">
-                  <div class="timeline-heading">
-                    <h4> Jomo Kenyatta University of Agriculture and Technology  </h4>
-                    <h4 class="subheading">Diploma in information technology</h4>
-                  </div>
-                  <div class="timeline-body">
-
-                  </div>
-                </div>
-              </li>
-              <li class="timeline-inverted">
-                <div class="timeline-image">
-                  <h4>2004 <br>
-                - <br>
-                2007 </h4>
-                </div>
-                <div class="timeline-panel">
-                  <div class="timeline-heading">
-                    <h4>Ngiriambu Girls High School </h4>
-                    <h4 class="subheading">Kenya Certificate of Secondary Education</h4>
-                  </div>
-                  <div class="timeline-body">
-
-                  </div>
-                </div>
-              </li>
-            </ul>
           </div>
         </div>
       </div>
@@ -394,50 +199,21 @@
           <h2>Contact</h2>
           <hr>
         </div>
-        <div class="col-md-8 col-md-offset-2">
+        <div class="col-md-8">
           <div class="col-md-4"> <i class="fa fa-map-marker fa-2x"></i>
-            <p>1125 - 00232 <br> Ruiru, Kenya</p>
+            <p>P.O Box 1125 - 00232 <br> Ruiru, Kenya</p>
+            <p><i class="fa fa-envelope-o fa-2x"></i>Email: mwerumuchai@gmail.com</p>
           </div>
-          <div class="col-md-4"> <i class="fa fa-envelope-o fa-2x"></i>
-            <p>mwerumuchai@gmail.com</p>
-          </div>
-          <div class="col-md-4"> <i class="fa fa-phone fa-2x"></i>
-            <p> N/A</p>
+          <div class="col-md-6">
+            <p></p>
           </div>
           <div class="clearfix"></div>
         </div>
         <div class="col-md-8 col-md-offset-2">
-          <h3>Leave me a message</h3>
-          <form name="sentMessage" id="contactForm" novalidate>
-            <div class="row">
-              <div class="col-md-6">
-                <div class="form-group">
-                  <input type="text" id="name" class="form-control" placeholder="Name" required="required">
-                  <p class="help-block text-danger"></p>
-                </div>
-              </div>
-              <div class="col-md-6">
-                <div class="form-group">
-                  <input type="email" id="email" class="form-control" placeholder="Email" required="required">
-                  <p class="help-block text-danger"></p>
-                </div>
-              </div>
-            </div>
-            <div class="form-group">
-              <textarea name="message" id="message" class="form-control" rows="4" placeholder="Message" required></textarea>
-              <p class="help-block text-danger"></p>
-            </div>
-            <div id="success"></div>
-            <button type="submit" class="btn btn-default">Send Message</button>
-          </form>
           <div class="social">
             <ul>
-              <li><a href="#"><i class="fa fa-facebook"></i></a></li>
-              <li><a href="#"><i class="fa fa-twitter"></i></a></li>
-              <li><a href="#"><i class="fa fa-dribbble"></i></a></li>
-              <li><a href="#"><i class="fa fa-github"></i></a></li>
-              <li><a href="#"><i class="fa fa-instagram"></i></a></li>
-              <li><a href="#"><i class="fa fa-linkedin"></i></a></li>
+              <li><a href="https://github.com/mwerumuchai"><i class="fa fa-github"></i></a></li>
+              <li><a href="https://www.linkedin.com/in/esther-mweru-913a4838/"><i class="fa fa-linkedin"></i></a></li>
             </ul>
           </div>
         </div>

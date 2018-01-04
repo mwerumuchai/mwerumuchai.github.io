@@ -8,11 +8,11 @@ body, html {
 }
 
 h1 {
-  font-weight: 700;
+  /*font-weight: 700;*/
 }
 
 h1 strong {
-  font-weight: 900;
+  /*font-weight: 300;*/
 }
 
 h2 {
@@ -25,12 +25,13 @@ h2 {
 }
 
 h3, h4 {
-  color: #121d1f;
+  color: #000;
   font-size: 20px;
-  font-weight: 600;
+  /*font-weight: 600;*/
 }
 
 h5 {
+  font-family: 'Open Sans', sans-serif;
   text-transform: uppercase;
   font-weight: 700;
   line-height: 20px;
@@ -103,12 +104,54 @@ hr {
 #nav.affix {
   position: fixed;
   top: 0;
+  background-color: #121d1f;
   width: 100%
 }
 
+.nav a {
+  color: #fff !important;
+  font-size: 1.2em !important;
+}
+
+/**********************************************************************
+*  OPAQUE NAVBAR SECTION
+***********************************************************************/
+
+.opaque-navbar {
+  background-color: rgba(0, 0, 0, 0.5);
+  /*Transparent=rgba(0, 0, 0, 0) / Translucent=(0, 0, 0, 0.5) height: 60px;*/
+  border-bottom: 0px;
+  transition: background-color .5s ease 0s;
+}
+
+.opaque-navbar.opaque {
+  background-color: #000;
+  height: 60px;
+  transition: background-color .5s ease 0s;
+}
+
+ul.dropdown-menu {
+  background-color: #000;
+}
+
+@media (max-width: 992px) {
+  body {
+    background: #000;
+  }
+  .opaque-navbar {
+    background-color: #000;
+    height: 60px;
+    transition: background-color .5s ease 0s;
+  }
+}
+
+/***********************************************************************
+*  END OPAQUE NAVBAR SECTION
+***********************************************************************/
+
 .navbar-custom {
   margin-bottom: 0;
-  background-color: #121d1f;
+  /*background-color: #121d1f;*/
   border-radius: 0px;
   padding: 10px 0;
 }
@@ -206,8 +249,10 @@ hr {
 .intro {
   display: table;
   width: 100%;
-  height: auto;
-  padding: 100px 0;
+  height: 100vh;
+  margin-bottom: 7px;
+  margin-top: -78px;
+  /*padding: 100px 0;*/
   text-align: center;
   color: #fff;
   background: url(../img/me.jpg) no-repeat center top;
@@ -219,85 +264,22 @@ hr {
 }
 
 .section-title.center {
-  padding: 25px 0 45px 0;
+  padding: 15px 0 35px 0;
 }
 
 /* About Section */
 
 #about {
-  padding: 100px 0;
+  /*padding: 20px 0;*/
   background: #f6f6f6;
 }
 
 #about .about-text {
-  margin-left: 10px;
-}
-
-#about img {
-  border-radius: 50%;
-  width: 200px;
-  height: 200px;
-  display: inline-block;
+  margin-left: 5px;
 }
 
 #about p {
-  margin-top: 20px;
   margin-bottom: 30px;
-}
-
-/* Skills Section */
-
-#skills {
-  padding: 100px 0;
-  background: #7bc3d1;
-}
-
-#skills h2 {
-  color: #fff;
-}
-
-#skills hr {
-  background: rgba(255, 255, 255, 0.3);
-}
-
-#skills .skill {
-  margin-bottom: 40px;
-  text-align: center;
-  padding: 0px;
-}
-
-#skills .skill h4 {
-  font-weight: 600;
-  color: #fff;
-}
-
-.chart {
-  position: relative;
-  display: inline-block;
-  width: 152px;
-  height: 152px;
-  margin-bottom: 26px;
-  text-align: center;
-}
-
-.chart canvas {
-  position: absolute;
-  top: 0;
-  left: 0;
-}
-
-.percent {
-  display: inline-block;
-  font-size: 21px;
-  color: #121d1f;
-  line-height: 152px;
-  z-index: 2;
-}
-
-.percent:after {
-  content: '%';
-  margin-left: 0.1em;
-  font-size: .8em;
 }
 
 /* Portfolio Section */
@@ -417,7 +399,7 @@ ol.type li a:hover {
   text-align: center;
   margin: 0 auto;
   color: #ffffff;
-  background: rgba(0, 0, 0, 0.66);
+  background: rgba(0, 0, 0, 0.56);
   padding: 33% 0 0 0;
   height: 100%;
   width: 100%;
@@ -496,136 +478,18 @@ ol.type li a:hover {
   margin: 0;
 }
 
-/* Resume Section */
+/*skills*/
 
-#resume {
-  padding: 100px 0;
-  background: #f6f6f6;
-}
-
-.timeline {
-  position: relative;
-  padding: 0;
-  list-style: none;
-}
-
-.timeline:before {
-  content: "";
-  position: absolute;
-  top: 0;
-  bottom: 0;
-  left: 40px;
-  width: 2px;
-  margin-left: -1.5px;
-  background-color: #eee;
-}
-
-.timeline>li {
-  position: relative;
-  margin-bottom: 50px;
-  min-height: 50px;
-}
-
-.timeline>li:before, .timeline>li:after {
-  content: " ";
-  display: table;
-}
-
-.timeline>li:after {
-  clear: both;
-}
-
-.timeline>li .timeline-panel {
-  float: right;
-  position: relative;
-  width: 100%;
-  padding: 0 20px 0 100px;
-  text-align: left;
-}
-
-.timeline>li .timeline-panel:before {
-  right: auto;
-  left: -15px;
-  border-right-width: 15px;
-  border-left-width: 0;
-}
-
-.timeline>li .timeline-panel:after {
-  right: auto;
-  left: -14px;
-  border-right-width: 14px;
-  border-left-width: 0;
-}
-
-.timeline>li .timeline-image {
-  z-index: 100;
-  position: absolute;
-  left: 0;
-  width: 70px;
-  height: 70px;
-  margin-left: 0;
-  border: 1px solid #eee;
-  border-radius: 100%;
-  text-align: center;
-  background: #fff;
-}
-
-.timeline>li .timeline-image h4 {
-  margin-top: 20px;
-  font-size: 14px;
-  text-transform: uppercase;
-}
-
-.timeline>li.timeline-inverted>.timeline-panel {
-  float: right;
-  padding: 0 20px 0 100px;
-  text-align: left;
-}
-
-.timeline>li.timeline-inverted>.timeline-panel:before {
-  right: auto;
-  left: -15px;
-  border-right-width: 15px;
-  border-left-width: 0;
-}
-
-.timeline>li.timeline-inverted>.timeline-panel:after {
-  right: auto;
-  left: -14px;
-  border-right-width: 14px;
-  border-left-width: 0;
-}
-
-.timeline>li:last-child {
-  margin-bottom: 40px;
-}
-
-.timeline .timeline-heading h4 {
-  margin-top: 0;
-  text-transform: uppercase;
-  font-size: 16px;
-}
-
-.timeline .timeline-heading h2 {
-  margin-top: 30px;
-}
-
-.timeline .timeline-heading h4.subheading {
-  text-transform: none;
-  color: #629ca7;
-  font-size: 20px;
-}
-
-.timeline .timeline-body>p, .timeline .timeline-body>ul {
-  margin-bottom: 0;
+#skills {
+  display: inline-block;
 }
 
 /* Contact Section */
 
 #contact {
-  padding: 100px 0 40px 0;
-  color: #121d1f;
-  background: #7bc3d1;
+  /*padding: 100px 0 40px 0;*/
+  color: #fff;
+  background: #121d1f;
 }
 
 #contact h2 {
@@ -637,14 +501,10 @@ ol.type li a:hover {
 }
 
 #contact h3 {
-  padding-top: 20px;
-  font-size: 20px;
+  /*padding-top: 5px;*/
+  font-size: 5px;
   font-weight: 400;
   color: #fff;
-}
-
-#contact form {
-  padding: 30px 0;
 }
 
 #contact i.fa {
@@ -664,49 +524,8 @@ label {
   float: left;
 }
 
-#contact .form-control {
-  display: block;
-  width: 100%;
-  padding: 6px 12px;
-  font-size: 14px;
-  line-height: 1.42857143;
-  color: #2c3e50;
-  background-color: rgba(255, 255, 255, 0.8);
-  background-image: none;
-  border: 0;
-  border-radius: 2px;
-  -webkit-box-shadow: none;
-  box-shadow: none;
-  -webkit-transition: none;
-  -o-transition: none;
-  transition: none;
-}
-
-#contact .form-control:focus {
-  border-color: inherit;
-  outline: 0;
-  -webkit-box-shadow: transparent;
-  box-shadow: transparent;
-}
-
-.form-control::-webkit-input-placeholder {
-  color: #2c3e50;
-}
-
-.form-control:-moz-placeholder {
-  color: #2c3e50;
-}
-
-.form-control::-moz-placeholder {
-  color: #2c3e50;
-}
-
-.form-control:-ms-input-placeholder {
-  color: #2c3e50;
-}
-
 #contact .social {
-  margin-top: 60px;
+  margin-top: 40px;
 }
 
 #contact .social ul li {
@@ -756,7 +575,6 @@ a:focus, .btn:focus, .btn:active:focus, .btn.active:focus, .btn.focus, .btn:acti
 #footer {
   background: #121d1f;
   color: #7d8384;
-  padding: 30px 0 25px 0;
 }
 
 #footer p {
@@ -775,8 +593,8 @@ a:focus, .btn:focus, .btn:active:focus, .btn.active:focus, .btn.focus, .btn:acti
 
 @media(min-width:768px) {
   .intro {
-    height: 100%;
-    padding: 0;
+    /*height: 100%;*/
+    /*padding: 0;*/
     text-align: left;
     color: #fff;
   }
@@ -826,7 +644,7 @@ a:focus, .btn:focus, .btn:active:focus, .btn.active:focus, .btn.focus, .btn:acti
   .timeline>li .timeline-image h4 {
     margin-top: 16px;
     line-height: 18px;
-    font-weight: 400;
+    /*font-weight: 400;*/
   }
   .timeline>li.timeline-inverted>.timeline-panel {
     float: right;
@@ -852,7 +670,7 @@ a:focus, .btn:focus, .btn:active:focus, .btn.active:focus, .btn.focus, .btn:acti
   }
   .timeline>li .timeline-image h4 {
     margin-top: 30px;
-    font-size: 18px;
+    /*font-size: 18px;*/
     line-height: 26px;
   }
   .timeline>li.timeline-inverted>.timeline-panel {
@@ -874,7 +692,7 @@ a:focus, .btn:focus, .btn:active:focus, .btn.active:focus, .btn.focus, .btn:acti
   }
   .timeline>li .timeline-image h4 {
     margin-top: 40px;
-    font-weight: 400;
+    /*font-weight: 400;*/
   }
   .timeline>li.timeline-inverted>.timeline-panel {
     padding: 10px 100px 20px 20px;
