@@ -1,5 +1,5 @@
 body, html {
-  font-family: 'Open Sans', sans-serif;
+  font-family: 'Roboto', sans-serif;
   text-rendering: optimizeLegibility !important;
   -webkit-font-smoothing: antialiased !important;
   color: #656c6d;
@@ -25,8 +25,9 @@ h1 strong {
 }*/
 
 h3, h4 {
-  color: #000;
-  font-size: 20px;
+  /*color: #000;*/
+  font-size: 25px;
+  font-family: 'Roboto', sans-serif;
   /*font-weight: 600;*/
 }
 
@@ -175,7 +176,7 @@ ul.dropdown-menu {
 }
 
 .navbar-custom a {
-  color: #f4f5f6;
+  color: #121d1f;
 }
 
 .navbar-custom .nav li a {
@@ -255,7 +256,7 @@ ul.dropdown-menu {
   /*padding: 100px 0;*/
   text-align: center;
   color: #fff;
-  background: url(../img/me.jpg) no-repeat center top;
+  background: linear-gradient( rgba(0, 0, 0, 0.45), rgba(0, 0, 0, 0.45)), url(../img/me.jpg) no-repeat center top;
   background-color: #7bc3d1;
   -webkit-background-size: cover;
   -moz-background-size: cover;
@@ -287,11 +288,42 @@ ul.dropdown-menu {
   margin: 0 20px;
 }
 
+/* Skills Section */
+
+#skills {
+  padding: 100px 0;
+  background: #fff;
+}
+
+/*#skills h2 {
+  color: #;
+}*/
+
+#skills hr {
+  background: #7bc3d1;
+}
+
+#skills .social ul li {
+  display: inline-block;
+  /*margin: 0 20px;*/
+}
+
+#skills .skill {
+  margin-bottom: 40px;
+  text-align: center;
+  padding: 0px;
+}
+
+#skills .skill h4 {
+  font-weight: 600;
+  color: #fff;
+}
+
 /* Portfolio Section */
 
 #portfolio {
   padding: 80px 0;
-  background: #ffffff;
+  background: #f6f6f6;
   /* Old browsers */
   background: -moz-linear-gradient(top, #ffffff 0%, #f4f5f6 49%, #ffffff 100%);
   /* FF3.6+ */
@@ -452,43 +484,6 @@ ol.type li a:hover {
   color: #E87E04;
 }
 
-/* Achivements Section */
-
-#achievements {
-  padding: 100px 0;
-  background: #7bc3d1;
-}
-
-#achievements h2 {
-  color: #fff;
-}
-
-#achievements hr {
-  background: rgba(255, 255, 255, 0.3);
-}
-
-.achievement-box h4 {
-  color: #fff;
-  font-size: 20px;
-  font-weight: 400;
-  margin-left: 5px;
-}
-
-.achievement-box span.count {
-  font-size: 52px;
-  font-weight: 600;
-  display: block;
-  color: #121d1f;
-  padding: 0;
-  margin: 0;
-}
-
-/*skills*/
-
-#skills {
-  display: inline-block;
-}
-
 /* Contact Section */
 
 #contact {
@@ -540,13 +535,13 @@ label {
 
 #contact .social i.fa {
   font-size: 30px;
-  padding: 4px 5px;
+  /*padding: 4px 5px;*/
   color: #fff;
   transition: all 0.5s;
 }
 
 #contact .social i.fa:hover {
-  color: #121d1f;
+  color: #fff;
 }
 
 #contact .btn {
@@ -597,27 +592,35 @@ a:focus, .btn:focus, .btn:active:focus, .btn.active:focus, .btn.focus, .btn:acti
 /* Media Queries */
 
 @media(min-width:768px) {
-  .intro {
+  /*.intro {
     /*height: 100%;*/
-    /*padding: 0;*/
-    text-align: left;
-    color: #fff;
+  /*padding: 0;*/
+  /*text-align: left;
+    color: #000;
   }
   .intro H1 {
     font-size: 60px;
     font-weight: 500;
     letter-spacing: -2px;
-  }
-  .intro .name {
+  }*/
+  */ .intro .name {
     font-weight: 600;
   }
   .intro .intro-text {
     max-width: 75%;
   }
   .intro .intro-text p {
-    font-family: 'Lato', sans-serif;
-    font-size: 20px;
+    font-family: Roboto, sans-serif;
+    font-size: 1.5vw;
     margin-bottom: 40px;
+    margin-top: 20px;
+    color: white;
+    letter-spacing: 0.2vw;
+  }
+  .intro .intro-text h2 {
+    font-family: Roboto, sans-serif;
+    font-size: 5vw;
+    color: white;
     margin-top: 20px;
   }
   section {
