@@ -7,29 +7,13 @@ body, html {
   height: 100% !important;
 }
 
-h1 {
-  /*font-weight: 700;*/
-}
-
-h1 strong {
-  /*font-weight: 300;*/
-}
-
-/*h2 {
-  line-height: 20px;
-  margin: 0;
-  color: #121d1f;
-  font-weight: 400;
-  margin-bottom: 30px;
-  font-size: 34px;
-}*/
-
+/*
 h3, h4 {
-  /*color: #000;*/
-  font-size: 25px;
+  color: #000;
+  font-size: 30px;
   font-family: 'Roboto', sans-serif;
-  /*font-weight: 600;*/
-}
+  font-weight: 600;
+}*/
 
 h5 {
   font-family: 'Open Sans', sans-serif;
@@ -44,10 +28,6 @@ p.intro {
   line-height: 24px;
   font-family: 'Open Sans', sans-serif;
 }
-
-/*a {
-  color: #fff;
-}*/
 
 a:hover, a:focus {
   text-decoration: none;
@@ -252,7 +232,7 @@ ul.dropdown-menu {
   width: 100%;
   height: 100vh;
   margin-bottom: 7px;
-  margin-top: -78px;
+  margin-top: -61px;
   /*padding: 100px 0;*/
   text-align: center;
   color: #fff;
@@ -271,7 +251,8 @@ ul.dropdown-menu {
 /* About Section */
 
 #about {
-  padding: 20px 0;
+  padding-top: 134px;
+  padding-bottom: 250px;
   background: #f6f6f6;
 }
 
@@ -291,7 +272,8 @@ ul.dropdown-menu {
 /* Skills Section */
 
 #skills {
-  padding: 100px 0;
+  padding-top: 100px;
+  padding-bottom: 250px;
   background: #fff;
 }
 
@@ -305,12 +287,12 @@ ul.dropdown-menu {
 
 #skills .social ul li {
   display: inline-block;
-  /*margin: 0 20px;*/
+  padding: 4px 5px;
 }
 
 #skills .skill {
   margin-bottom: 40px;
-  text-align: center;
+  /*text-align: center;*/
   padding: 0px;
 }
 
@@ -321,24 +303,45 @@ ul.dropdown-menu {
 
 /* Portfolio Section */
 
+/*#portfolio {
+  padding: 80px 0;
+  background: #f6f6f6;;*/
+
+/* Old browsers */
+
+/*background: -moz-linear-gradient(top, #ffffff 0%, #f4f5f6 49%, #ffffff 100%);*/
+
+/* FF3.6+ */
+
+/*background: -webkit-gradient(linear, left top, left bottom, color-stop(0%, #ffffff), color-stop(49%, #f4f5f6), color-stop(100%, #ffffff));*/
+
+/* Chrome,Safari4+ */
+
+/*background: -webkit-linear-gradient(top, #ffffff 0%, #f4f5f6 49%, #ffffff 100%);*/
+
+/* Chrome10+,Safari5.1+ */
+
+/*background: -o-linear-gradient(top, #ffffff 0%, #f4f5f6 49%, #ffffff 100%);*/
+
+/* Opera 11.10+ */
+
+/*background: -ms-linear-gradient(top, #ffffff 0%, #f4f5f6 49%, #ffffff 100%);*/
+
+/* IE10+ */
+
+/*background: linear-gradient(to bottom, #ffffff 0%, #f4f5f6 49%, #ffffff 100%);*/
+
+/* W3C */
+
+/*filter: progid:DXImageTransform.Microsoft.gradient( startColorstr='#ffffff', endColorstr='#ffffff', GradientType=0);*/
+
+/* IE6-9 */
+
+/*}*/
+
 #portfolio {
   padding: 80px 0;
   background: #f6f6f6;
-  /* Old browsers */
-  background: -moz-linear-gradient(top, #ffffff 0%, #f4f5f6 49%, #ffffff 100%);
-  /* FF3.6+ */
-  background: -webkit-gradient(linear, left top, left bottom, color-stop(0%, #ffffff), color-stop(49%, #f4f5f6), color-stop(100%, #ffffff));
-  /* Chrome,Safari4+ */
-  background: -webkit-linear-gradient(top, #ffffff 0%, #f4f5f6 49%, #ffffff 100%);
-  /* Chrome10+,Safari5.1+ */
-  background: -o-linear-gradient(top, #ffffff 0%, #f4f5f6 49%, #ffffff 100%);
-  /* Opera 11.10+ */
-  background: -ms-linear-gradient(top, #ffffff 0%, #f4f5f6 49%, #ffffff 100%);
-  /* IE10+ */
-  background: linear-gradient(to bottom, #ffffff 0%, #f4f5f6 49%, #ffffff 100%);
-  /* W3C */
-  filter: progid:DXImageTransform.Microsoft.gradient( startColorstr='#ffffff', endColorstr='#ffffff', GradientType=0);
-  /* IE6-9 */
 }
 
 .categories {
@@ -425,11 +428,11 @@ ol.type li a:hover {
   transform: scale(1.1);
 }
 
-.portfolio-item .hover-bg {
+/*.portfolio-item .hover-bg {
   height: 260px;
   overflow: hidden;
   position: relative;
-}
+}*/
 
 .hover-bg .hover-text {
   position: absolute;
@@ -579,6 +582,7 @@ a:focus, .btn:focus, .btn:active:focus, .btn.active:focus, .btn.focus, .btn:acti
 
 #footer p {
   font-size: 13px;
+  margin-top: 35px;
 }
 
 #footer a {
@@ -603,23 +607,25 @@ a:focus, .btn:focus, .btn:active:focus, .btn.active:focus, .btn.focus, .btn:acti
     font-weight: 500;
     letter-spacing: -2px;
   }*/
-  */ .intro .name {
-    font-weight: 600;
+  .intro .name {
+    margin-left: 15px;
+    text-align: left;
+    padding-left: 76px;
   }
   .intro .intro-text {
-    max-width: 75%;
+    max-width: 65%;
   }
   .intro .intro-text p {
     font-family: Roboto, sans-serif;
     font-size: 1.5vw;
     margin-bottom: 40px;
-    margin-top: 20px;
+    margin-top: 30px;
     color: white;
     letter-spacing: 0.2vw;
   }
   .intro .intro-text h2 {
     font-family: Roboto, sans-serif;
-    font-size: 5vw;
+    font-size: 4vw;
     color: white;
     margin-top: 20px;
   }
@@ -661,6 +667,7 @@ a:focus, .btn:focus, .btn:active:focus, .btn.active:focus, .btn.focus, .btn:acti
   }
 }
 
+/*
 @media(min-width:992px) {
   #here-me h1 {
     margin: 10px 0 0px;
@@ -678,7 +685,7 @@ a:focus, .btn:focus, .btn:active:focus, .btn.active:focus, .btn.focus, .btn:acti
   }
   .timeline>li .timeline-image h4 {
     margin-top: 30px;
-    /*font-size: 18px;*/
+    font-size: 18px;
     line-height: 26px;
   }
   .timeline>li.timeline-inverted>.timeline-panel {
@@ -700,9 +707,11 @@ a:focus, .btn:focus, .btn:active:focus, .btn.active:focus, .btn.focus, .btn:acti
   }
   .timeline>li .timeline-image h4 {
     margin-top: 40px;
-    /*font-weight: 400;*/
-  }
-  .timeline>li.timeline-inverted>.timeline-panel {
-    padding: 10px 100px 20px 20px;
-  }
+    font-weight: 400;
+  }*/
+
+.timeline>li.timeline-inverted>.timeline-panel {
+  padding: 10px 100px 20px 20px;
+}
+
 }
