@@ -127,6 +127,7 @@
       </div>
     </div>
     </div>
+
     <!-- Portfolio Section -->
     <div id="portfolio">
       <div class="container">
@@ -134,83 +135,103 @@
           <h2>Projects</h2>
           <hr>
         </div>
-        <div class="categories">
-          <ul class="cat">
-            <li>
-              <ol class="type">
-                <li><a href="#" data-filter="*" class="active">All</a></li>
-                <li><a href="#" data-filter=".web">Javascript</a></li>
-                <li><a href="#" data-filter=".branding">Python - Django</a></li>
-              </ol>
-            </li>
-          </ul>
-          <div class="clearfix"></div>
+
+        <!-- Button trigger modal -->
+        <button type="button" class="btn btn-primary btn-lg" data-toggle="modal" data-target="#exampleModal">
+          <img src="img/projects/traft.png" class="img-responsive" alt="Traffic Tracker" height="250" width="250">
+          <h4>Traffic Tracker</h4>
+          </button>
+
+        <!-- Modal -->
+        <div class="modal fade" id="exampleModal" tabindex="-5" role="dialog" aria-labelledby="exampleModalLabel" aria-hidden="true" height="90px" width="650px">
+          <div class="modal-dialog" role="document">
+            <div class="modal-content">
+              <div class="modal-header"> <br>
+                <h5 class="modal-title" id="exampleModalLabel">Traffic Tracker</h5>
+                <button type="button" class="close" data-dismiss="modal" aria-label="Close">
+                    <span aria-hidden="true">&times;</span>
+                  </button>
+              </div> <br>
+              <div class="modal-body">
+                <img src="img/portfolio/tt-desc2.png" title="Technologies used: Ember, Firebase, GoogleMap, Twitter API" rel="prettyPhoto" height="490" width="540px">
+                <h3>This is a simple Web application that allows users to track traffic on specified routes.</h3>
+                <h2><a href="https://traffic-tracker-70c62.firebaseapp.com/">View Site</a></h2>
+              </div>
+              <div class=" modal-footer ">
+                <p>Technologies used: Ember, Firebase, GoogleMap, Twitter API</p>
+              </div>
+            </div>
+          </div>
         </div>
-        <div class="row">
-          <div class="portfolio-items">
-            <div class="col-sm-6 col-md-3 col-lg-3 web">
-              <div class="portfolio-item">
-                <div class="hover-bg">
-                  <h4>
-                      <a href="img/portfolio/01-large.jpg" title="Technologies used: Ember, Firebase, GoogleMap, Twitter API" rel="prettyPhoto">
-                      </h4>
-                  <div class="hover-text">
-                    <h4>Traffic Tracker</h4>
-                    <small>This is a simple Web application that allows users to track traffic on specified routes.</small> </div>
-                  <img src="img/projects/traft.png" class="img-responsive" alt="Traffic Tracker"> </a>
-                </div><a href="https://traffic-tracker-70c62.firebaseapp.com/">View Site</a>
+        <!-- Project 2 -->
+        <button type="button" class="btn btn-primary btn-lg" data-toggle="modal" data-target="#exampleModal1">
+          <img src="img/projects/camera.png" class="img-responsive" alt="Traffic Tracker" height="250" width="250">
+          <h4>Unsplash-Clone</h4>
+          </button>
+
+        <!-- Modal -->
+        <div class="modal fade" id="exampleModal1" tabindex="-5" role="dialog" aria-labelledby="exampleModalLabel" aria-hidden="true" height="90px" width="650px">
+          <div class="modal-dialog" role="document">
+            <div class="modal-content">
+              <div class="modal-header"> <br>
+                <h5 class="modal-title" id="exampleModalLabel">Unsplash-Clone</h5>
+                <button type="button" class="close" data-dismiss="modal" aria-label="Close">
+                    <span aria-hidden="true">&times;</span>
+                  </button>
+              </div> <br>
+              <div class="modal-body">
+                <img src="img/projects/unsplash.png" title="Technologies used: Ember, Firebase, GoogleMap, Twitter API" rel="prettyPhoto" height="490" width="540px">
+                <h3>This is a cloned web application for unsplash where users can upload photos and download photos from other users.</h3>
+                <h2><a href="https://unsplash-clone2.herokuapp.com/">View Site</a></h2>
+              </div>
+              <div class=" modal-footer ">
+                <p>Technologies used: Ember, Firebase, GoogleMap, Twitter API</p>
               </div>
             </div>
-            <div class="col-sm-6 col-md-3 col-lg-3 branding">
-              <div class="portfolio-item">
-                <div class="hover-bg">
-                  <a href="img/projects/unsplashclone.png" title="Technologies used: Python3.6, Django, Bootstrap, Postgresql Database, CSS, HTML" rel="prettyPhoto">
-                    <div class="hover-text">
-                      <h4>Unsplash-Clone</h4>
-                      <small>This is a cloned web application for unsplash where users can upload and download photos from other users.</small> </div>
-                    <img src="img/projects/camera.png" class="img-responsive" alt="Unsplash-Clone"> </a>
-                </div><a href="https://unsplash-clone2.herokuapp.com/">View Site</a>
+          </div>
+        </div>
+        <!-- Project 3 -->
+        <button type="button" class="btn btn-primary btn-lg" data-toggle="modal" data-target="#exampleModal2">
+          <img src="img/projects/jeep.png" class="img-responsive" alt="Traffic Tracker" height="250" width="250">
+          <h4>Autos</h4>
+          </button>
+
+        <!-- Modal -->
+        <div class="modal fade" id="exampleModal2" tabindex="-5" role="dialog" aria-labelledby="exampleModalLabel" aria-hidden="true" height="90px" width="650px">
+          <div class="modal-dialog" role="document">
+            <div class="modal-content">
+              <div class="modal-header"> <br>
+                <h5 class="modal-title" id="exampleModalLabel">Autos</h5>
+                <button type="button" class="close" data-dismiss="modal" aria-label="Close">
+                    <span aria-hidden="true">&times;</span>
+                  </button>
+              </div> <br>
+              <div class="modal-body">
+                <img src="img/projects/autos.png" title="Technologies used: Ember, Firebase, GoogleMap, Twitter API" rel="prettyPhoto" height="490" width="540px">
+                <h3>This application helps users to view more details about cars and be able to rate them.</h3>
+                <h2><a href="https://mweru-autos.herokuapp.com/">View Site</a></h2>
               </div>
-            </div>
-            <div class="col-sm-6 col-md-3 col-lg-3 web">
-              <div class="portfolio-item">
-                <div class="hover-bg">
-                  <a href="img/projects/githubuserlookup.png" title="Technologies used: HTML, CSS, Bootstrap, JavaScript, JQuery, GitHub API" rel="prettyPhoto">
-                    <div class="hover-text">
-                      <h4>Github User Lookup</h4>
-                      <small>A simple JavaScript application for searching users on Github using their usernames</small> </div>
-                    <img src="img/projects/github.png" class="img-responsive" alt="Github User Lookup"> </a>
-                </div>
-                <a href="https://mwerumuchai.github.io/mc5-ip1/">View Site</a>
-              </div>
-            </div>
-            <div class="col-sm-6 col-md-3 col-lg-3 branding">
-              <div class="portfolio-item">
-                <div class="hover-bg">
-                  <a href="img/projects/autos.png" title="Technologies used: Python3.6, Django, Bootstrap, Postgresql Database, CSS, HTML" rel="prettyPhoto">
-                    <div class="hover-text">
-                      <h4>Autos</h4>
-                      <small>This application helps users to view more details about cars and be able to rate them.</small> </div>
-                    <img src="img/projects/jeep.png" class="img-responsive" alt="Autos"> </a>
-                </div>
-                <a href="https://news-highlights.herokuapp.com/">View Site</a>
+              <div class=" modal-footer">
+                <p>Technologies used: Ember, Firebase, GoogleMap, Twitter API</p>
               </div>
             </div>
           </div>
         </div>
       </div>
     </div>
+
+
     <!-- Contact Section -->
     <div id="contact" class="text-center">
-      <div class="container-fluid">
-        <div class="row">
+      <div class="container-fluid ">
+        <div class="row ">
           <h2>Contact</h2>
-          <i class="fa fa-map-marker fa-2x"></i>
-          <p><i class="fa fa-envelope-o fa-2x"></i><a href="mailto:mwerumuchai@gmail.com" target="_top">mwerumuchai@gmail.com</a></p>
-          <div class="social">
+          <i class="fa fa-map-marker fa-2x "></i>
+          <p><i class="fa fa-envelope-o fa-2x "></i><a href="mailto:mwerumuchai@gmail.com" target="_top">mwerumuchai@gmail.com</a></p>
+          <div class="social ">
             <ul>
-              <li><a href="https://github.com/mwerumuchai"><i class="fa fa-github"></i></a></li>
-              <li><a href="https://www.linkedin.com/in/esther-mweru-913a4838/"><i class="fa fa-linkedin"></i></a></li>
+              <li><a href="https://github.com/mwerumuchai "><i class="fa fa-github"></i></a></li>
+              <li><a href="https://www.linkedin.com/in/esther-mweru-913a4838/ "><i class="fa fa-linkedin "></i></a></li>
             </ul>
           </div>
         </div>
@@ -223,17 +244,17 @@
         </div>
       </div>
     </div>
-    <script type="text/javascript" src="js/jquery.1.11.1.js"></script>
-    <script type="text/javascript" src="js/bootstrap.js"></script>
-    <script type="text/javascript" src="js/SmoothScroll.js"></script>
-    <script type="text/javascript" src="js/easypiechart.js"></script>
-    <script type="text/javascript" src="js/jquery.prettyPhoto.js"></script>
-    <script type="text/javascript" src="js/jquery.isotope.js"></script>
-    <script type="text/javascript" src="js/jquery.counterup.js"></script>
-    <script type="text/javascript" src="js/waypoints.js"></script>
-    <script type="text/javascript" src="js/jqBootstrapValidation.js"></script>
-    <script type="text/javascript" src="js/contact_me.js"></script>
-    <script type="text/javascript" src="js/main.js"></script>
+    <script type="text/javascript " src="js/jquery.1.11.1.js "></script>
+    <script type="text/javascript " src="js/bootstrap.js "></script>
+    <script type="text/javascript " src="js/SmoothScroll.js "></script>
+    <script type="text/javascript " src="js/easypiechart.js "></script>
+    <script type="text/javascript " src="js/jquery.prettyPhoto.js "></script>
+    <script type="text/javascript " src="js/jquery.isotope.js "></script>
+    <script type="text/javascript " src="js/jquery.counterup.js "></script>
+    <script type="text/javascript " src="js/waypoints.js "></script>
+    <script type="text/javascript " src="js/jqBootstrapValidation.js "></script>
+    <script type="text/javascript " src="js/contact_me.js "></script>
+    <script type="text/javascript " src="js/main.js "></script>
   </body>
 
 </html>
