@@ -79,7 +79,7 @@ hr {
 /* Navigation */
 
 #nav {
-  z-index: 9999;
+  /*z-index: 9999;*/
 }
 
 #nav.affix {
@@ -514,6 +514,10 @@ ol.type li a:hover {
   padding: 5px;
   color: #E87E04;
 }
+
+/*#exampleModal {
+  z-index: 4
+}*/
 
 /* Contact Section */
 
