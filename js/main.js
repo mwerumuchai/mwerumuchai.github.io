@@ -25,6 +25,7 @@ $('#nav').affix({
       }
 });
 
+
 	// skills chart
 	$(document).ready(function(e) {
 	//var windowBottom = $(window).height();
@@ -47,6 +48,27 @@ $('#nav').affix({
 		}
 	})
 	//console.log(nagativeValue)
+
+  // // scrol navbar
+  //
+  // $(window).scroll(function() {
+  //    var scrollbarLocation = $(this).scrollTop();
+  //      // navbar fade-in/fade-out
+  //      if (scrollbarLocation > 550) {
+  //        $('.navbar').fadeIn();
+  //      } else {
+  //        $('.navbar').fadeOut();
+  //      }
+  //    });
+  //
+  //  });
+  //  // Navbar popup
+  //  $(window).on('scroll', function() {
+  //
+  //  });
+  //
+  // });
+  // end
 	});
 
 
@@ -77,22 +99,6 @@ $('#nav').affix({
         });
 
     });
-
-    // inline type
-    // Example 1: From an element in DOM
-    $('.open-popup-link').magnificPopup({
-      type:'inline',
-      midClick: true // allow opening popup on middle mouse click. Always set it to true if you don't provide alternative source.
-    });
-
-// Example: 2 Dynamically created
-    // $('button').magnificPopup({
-    //   items: {
-    //     src: '<div class="white-popup">Dynamically created popup</div>',
-    //     type: 'inline'
-    //   },
-    //   closeBtnInside: true
-    // });
 
 
     // CounterUp

@@ -260,10 +260,10 @@ padding: 59px 0;
 /* About Section */
 
 #about {
-  padding-top: 31px;
+  padding-top: 107px;
   padding-bottom: 184px;
   background: #f4f5f6;
-  /*height: 100%;*/
+  /*margin-top: -8px;*/
 }
 
 #about .about-text {
@@ -715,7 +715,6 @@ a:focus, .btn:focus, .btn:active:focus, .btn.active:focus, .btn.focus, .btn:acti
     padding: 0 20px 20px;
   }
 }
-
 @media(min-width:1200px) {
   .timeline>li {
     min-height: 170px;
