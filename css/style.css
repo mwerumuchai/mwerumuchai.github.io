@@ -16,8 +16,8 @@ h3, h4 {
 }*/
 
 h5 {
-  font-family: 'Open Sans', sans-serif;
-  text-transform: uppercase;
+  font-family: 'Roboto', sans-serif;
+  /*text-transform: uppercase;*/
   font-weight: 700;
   line-height: 20px;
 }
@@ -26,7 +26,7 @@ p.intro {
   font-size: 26px;
   margin: 5px 0 0;
   line-height: 24px;
-  font-family: 'Open Sans', sans-serif;
+  font-family: 'Roboto', sans-serif;
 }
 
 a:hover, a:focus {
@@ -252,9 +252,10 @@ ul.dropdown-menu {
 /* About Section */
 
 #about {
-  padding-top: 134px;
-  padding-bottom: 250px;
-  background: #fff;
+  padding-top: 155px;
+  padding-bottom: 150px;
+  background: #f4f5f6;
+  /*height: 100%;*/
 }
 
 #about .about-text {
@@ -273,8 +274,8 @@ ul.dropdown-menu {
 /* Skills Section */
 
 #skills {
-  padding-top: 100px;
-  padding-bottom: 250px;
+  padding-top: 50px;
+  padding-bottom: 150px;
   background: #fff;
 }
 
@@ -304,45 +305,15 @@ ul.dropdown-menu {
 
 /* Portfolio Section */
 
-/*#portfolio {
-  padding: 80px 0;
-  background: #f6f6f6;;*/
-
-/* Old browsers */
-
-/*background: -moz-linear-gradient(top, #ffffff 0%, #f4f5f6 49%, #ffffff 100%);*/
-
-/* FF3.6+ */
-
-/*background: -webkit-gradient(linear, left top, left bottom, color-stop(0%, #ffffff), color-stop(49%, #f4f5f6), color-stop(100%, #ffffff));*/
-
-/* Chrome,Safari4+ */
-
-/*background: -webkit-linear-gradient(top, #ffffff 0%, #f4f5f6 49%, #ffffff 100%);*/
-
-/* Chrome10+,Safari5.1+ */
-
-/*background: -o-linear-gradient(top, #ffffff 0%, #f4f5f6 49%, #ffffff 100%);*/
-
-/* Opera 11.10+ */
-
-/*background: -ms-linear-gradient(top, #ffffff 0%, #f4f5f6 49%, #ffffff 100%);*/
-
-/* IE10+ */
-
-/*background: linear-gradient(to bottom, #ffffff 0%, #f4f5f6 49%, #ffffff 100%);*/
-
-/* W3C */
-
-/*filter: progid:DXImageTransform.Microsoft.gradient( startColorstr='#ffffff', endColorstr='#ffffff', GradientType=0);*/
-
-/* IE6-9 */
-
-/*}*/
-
 #portfolio {
   padding: 80px 0;
-  background: #fff;
+  background: #f4f5f6;
+}
+
+.btn {
+  display: inline-block;
+  padding: 74px 80px;
+  margin-bottom: 0;
 }
 
 .modal-header {
@@ -368,14 +339,6 @@ ul.dropdown-menu {
   /*padding-right: 15px;
   margin-top: 216px;*/
 }
-
-/*.btn-primary {
-  color: #fff;
-  background-color: #f6f6f6;
-  padding: 10px 20px;
-  border-color: #f6f6f6;
-  border-radius: 0;
-}*/
 
 .categories {
   padding-bottom: 30px;
@@ -524,14 +487,17 @@ ol.type li a:hover {
   z-index: 4
 }*/
 
+.fa {
+  font-size: 30px;
+}
+
 /*.navbar-custom {
   margin-bottom: 33px;
-  /* background-color: #121d1f; */
+  background-color: #121d1f;
+  border-radius: 0px;
+  padding: 62px 0;
+}*/
 
-/*border-radius: 0px;
-padding: 62px 0;*/
-
-*/
 /* Contact Section */
 
 #contact {
@@ -568,7 +534,7 @@ padding: 62px 0;*/
 label {
   font-size: 12px;
   font-weight: 400;
-  font-family: 'Open Sans', sans-serif;
+  font-family: 'Roboto', sans-serif;
   float: left;
 }
 
