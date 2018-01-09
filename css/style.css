@@ -130,14 +130,15 @@ ul.dropdown-menu {
 *  END OPAQUE NAVBAR SECTION
 ***********************************************************************/
 
-.navbar-custom {
-  margin-bottom: 0;
-  /*background-color: #121d1f;*/
-  border-radius: 0px;
-  padding: 10px 0;
-}
+/*.navbar-custom {
+  margin-bottom: -16px;
+  /* background-color: #121d1f; */
 
-.navbar-custom .navbar-brand {
+/*border-radius: 0px;
+padding: 59px 0;
+}*/
+
+*/ .navbar-custom .navbar-brand {
   font-weight: 600;
 }
 
@@ -225,6 +226,13 @@ ul.dropdown-menu {
   margin-right: 10px;
 }
 
+/*.container {
+  padding-right: 71px;
+  padding-left: 35px;
+  margin-right: auto;
+  margin-left: auto;
+}*/
+
 /* Home Section */
 
 .intro {
@@ -252,8 +260,8 @@ ul.dropdown-menu {
 /* About Section */
 
 #about {
-  padding-top: 155px;
-  padding-bottom: 150px;
+  padding-top: 31px;
+  padding-bottom: 184px;
   background: #f4f5f6;
   /*height: 100%;*/
 }
@@ -274,9 +282,13 @@ ul.dropdown-menu {
 /* Skills Section */
 
 #skills {
-  padding-top: 50px;
-  padding-bottom: 150px;
+  padding-top: 63px;
+  padding-bottom: 177px;
   background: #fff;
+}
+
+.section-title.center {
+  padding: 8px 0 35px 0;
 }
 
 /*#skills h2 {
