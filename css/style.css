@@ -15,6 +15,16 @@ h3, h4 {
   font-weight: 600;
 }*/
 
+.name {
+  font-family: 'Sacramento', cursive;
+  font-size: 50px;
+}
+
+.web {
+  font-family: 'Sacramento', cursive;
+  font-size: 40px;
+}
+
 h5 {
   font-family: 'Roboto', sans-serif;
   /*text-transform: uppercase;*/
@@ -291,6 +301,12 @@ padding: 59px 0;
   padding: 8px 0 35px 0;
 }
 
+#name {
+  font-family: 'Sacramento', cursive;
+  font-size: 50px;
+  font-weight: 600;
+}
+
 /*#skills h2 {
   color: #;
 }*/
@@ -311,11 +327,20 @@ padding: 59px 0;
 }
 
 #skills .skill h4 {
+  font-family: 'Sacramento', cursive;
   font-weight: 600;
   color: #fff;
 }
 
 /* Portfolio Section */
+
+.rotate90 {
+  -webkit-transform: rotate(90deg);
+  -moz-transform: rotate(90deg);
+  -o-transform: rotate(90deg);
+  -ms-transform: rotate(90deg);
+  transform: rotate(90deg);
+}
 
 #portfolio {
   padding: 80px 0;
@@ -490,7 +515,7 @@ ol.type li a:hover {
 }
 
 #portfolio i.fa {
-  font-size: 20px;
+  font-size: 30px;
   padding: 5px;
   color: #121d1f;
 }
@@ -498,6 +523,11 @@ ol.type li a:hover {
 /*#exampleModal {
   z-index: 4
 }*/
+
+.site {
+  padding-left: 370px;
+  font-size: 30px;
+}
 
 .fa {
   font-size: 30px;
@@ -526,9 +556,9 @@ ol.type li a:hover {
   background: rgba(255, 255, 255, 0.3);
 }
 
-#contact h3 {
+#contact h3 a {
   /*padding-top: 5px;*/
-  font-size: 5px;
+  font-size: 26px;
   font-weight: 400;
   color: #fff;
 }
@@ -567,6 +597,13 @@ label {
 }
 
 #contact .social i.fa:hover {
+  color: #fff;
+}
+
+#contact h3 {
+  /* padding-top: 5px; */
+  font-size: 26px;
+  font-weight: 400;
   color: #fff;
 }
 
@@ -613,33 +650,36 @@ a:focus, .btn:focus, .btn:active:focus, .btn.active:focus, .btn.focus, .btn:acti
 }
 
 #footer a:hover {
-  color: #7bc3d1;
+  color: #fff;
 }
 
 /* Media Queries */
 
 @media(min-width:768px) {
-  /*.intro {
-    /*height: 100%;*/
-  /*padding: 0;*/
-  /*text-align: left;
-    color: #000;
+  .intro {
+    height: 100%;
+    padding: 0;
+    color: #fff;
   }
   .intro H1 {
     font-size: 60px;
     font-weight: 500;
     letter-spacing: -2px;
-  }*/
+  }
   .intro .name {
     margin-left: 15px;
     text-align: left;
+    padding-left: 76px;
+  }
+  .intro .web {
+    margin-left: 15px;
     padding-left: 76px;
   }
   .intro .intro-text {
     max-width: 65%;
   }
   .intro .intro-text p {
-    font-family: Roboto, sans-serif;
+    font-family: 'Sacramento', cursive;
     font-size: 1.5vw;
     margin-bottom: 40px;
     margin-top: 30px;
@@ -647,7 +687,7 @@ a:focus, .btn:focus, .btn:active:focus, .btn.active:focus, .btn.focus, .btn:acti
     letter-spacing: 0.2vw;
   }
   .intro .intro-text h2 {
-    font-family: Roboto, sans-serif;
+    font-family: 'Sacramento', cursive;
     font-size: 4vw;
     color: white;
     margin-top: 20px;
@@ -690,7 +730,6 @@ a:focus, .btn:focus, .btn:active:focus, .btn.active:focus, .btn.focus, .btn:acti
   }
 }
 
-/*
 @media(min-width:992px) {
   #here-me h1 {
     margin: 10px 0 0px;
@@ -715,6 +754,7 @@ a:focus, .btn:focus, .btn:active:focus, .btn.active:focus, .btn.focus, .btn:acti
     padding: 0 20px 20px;
   }
 }
+
 @media(min-width:1200px) {
   .timeline>li {
     min-height: 170px;
@@ -730,10 +770,8 @@ a:focus, .btn:focus, .btn:active:focus, .btn.active:focus, .btn.focus, .btn:acti
   .timeline>li .timeline-image h4 {
     margin-top: 40px;
     font-weight: 400;
-  }*/
-
-.timeline>li.timeline-inverted>.timeline-panel {
-  padding: 10px 100px 20px 20px;
-}
-
+  }
+  .timeline>li.timeline-inverted>.timeline-panel {
+    padding: 10px 100px 20px 20px;
+  }
 }
