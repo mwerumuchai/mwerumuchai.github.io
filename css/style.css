@@ -334,22 +334,14 @@ padding: 59px 0;
 
 /* Portfolio Section */
 
-.rotate90 {
-  -webkit-transform: rotate(90deg);
-  -moz-transform: rotate(90deg);
-  -o-transform: rotate(90deg);
-  -ms-transform: rotate(90deg);
-  transform: rotate(90deg);
-}
-
 #portfolio {
-  padding: 52px 0;
+  padding: 84px 0;
   background: #f4f5f6;
 }
 
 .btn {
   display: inline-block;
-  padding: 74px 120px;
+  padding: 74px 84px;
   margin-bottom: 0;
 }
 
@@ -359,8 +351,8 @@ padding: 59px 0;
 
 #btnsize {
   font-size: 14px;
-  width: 100px;
-  height: 100px;
+  width: 150px;
+  height: 150px;
 }
 
 .btn-primary {
@@ -652,6 +644,48 @@ a:focus, .btn:focus, .btn:active:focus, .btn.active:focus, .btn.focus, .btn:acti
 
 /* Media Queries */
 
+/*@media(min-width:360px) {
+  .modal-content {
+    width: 339px;
+  }
+}*/
+
+/*@media(min-width:412px) {
+  .modal-content {
+    margin-right: 75px;
+  }
+}*/
+
+@media(min-width:1280px) {
+  .intro .name {
+    margin-left: 15px;
+    text-align: left;
+    padding-left: 76px;
+  }
+  .intro .web {
+    margin-left: 15px;
+    padding-left: 76px;
+  }
+  .intro .intro-text {
+    max-width: 65%;
+    margin-left: 177px;
+  }
+  .intro .intro-text p {
+    font-family: 'Shadows Into Light', cursive;
+    font-size: 1.5vw;
+    margin-bottom: 40px;
+    margin-top: 30px;
+    color: white;
+    letter-spacing: 0.2vw;
+  }
+  .intro .intro-text h2 {
+    font-family: 'Shadows Into Light', cursive;
+    font-size: 4vw;
+    color: white;
+    margin-top: 20px;
+  }
+}
+
 @media(min-width:768px) {
   /*.intro {
     height: 100%;
@@ -662,6 +696,9 @@ a:focus, .btn:focus, .btn:active:focus, .btn.active:focus, .btn.focus, .btn:acti
     font-size: 60px;
     font-weight: 500;
     letter-spacing: -2px;
+  }*/
+  /*.modal-content {
+    margin-right: 95px;
   }*/
   .intro .name {
     margin-left: 15px;
@@ -674,6 +711,7 @@ a:focus, .btn:focus, .btn:active:focus, .btn.active:focus, .btn.focus, .btn:acti
   }
   .intro .intro-text {
     max-width: 65%;
+    margin-left: 177px;
   }
   .intro .intro-text p {
     font-family: 'Shadows Into Light', cursive;
@@ -727,10 +765,21 @@ a:focus, .btn:focus, .btn:active:focus, .btn.active:focus, .btn.focus, .btn:acti
   }
 }
 
+@media (min-width: 2560px) {
+  bootstrap.css:1949 .col-md-6 {
+    width: 50%;
+    margin-left: 190px
+  }
+}
+
 @media(min-width:992px) {
   #here-me h1 {
     margin: 10px 0 0px;
   }
+  /*.bootstrap.css:1949 .col-md-6 {
+    width: 50%;
+    margin-left: 190px;
+  }*/
   .timeline>li {
     min-height: 150px;
   }
