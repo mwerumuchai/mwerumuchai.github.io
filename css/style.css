@@ -16,12 +16,12 @@ h3, h4 {
 }*/
 
 .name {
-  font-family: 'Sacramento', cursive;
+  font-family: 'Shadows Into Light', cursive;
   font-size: 50px;
 }
 
 .web {
-  font-family: 'Sacramento', cursive;
+  font-family: 'Shadows Into Light', cursive;
   font-size: 40px;
 }
 
@@ -302,7 +302,7 @@ padding: 59px 0;
 }
 
 #name {
-  font-family: 'Sacramento', cursive;
+  font-family: 'Shadows Into Light', cursive;
   font-size: 50px;
   font-weight: 600;
 }
@@ -327,7 +327,7 @@ padding: 59px 0;
 }
 
 #skills .skill h4 {
-  font-family: 'Sacramento', cursive;
+  font-family: 'Shadows Into Light', cursive;
   font-weight: 600;
   color: #fff;
 }
@@ -343,13 +343,13 @@ padding: 59px 0;
 }
 
 #portfolio {
-  padding: 80px 0;
+  padding: 52px 0;
   background: #f4f5f6;
 }
 
 .btn {
   display: inline-block;
-  padding: 74px 80px;
+  padding: 74px 120px;
   margin-bottom: 0;
 }
 
@@ -520,6 +520,10 @@ ol.type li a:hover {
   color: #121d1f;
 }
 
+.section-title.center {
+  padding: 22px 0 39px 0;
+}
+
 /*#exampleModal {
   z-index: 4
 }*/
@@ -672,7 +676,7 @@ a:focus, .btn:focus, .btn:active:focus, .btn.active:focus, .btn.focus, .btn:acti
     max-width: 65%;
   }
   .intro .intro-text p {
-    font-family: 'Sacramento', cursive;
+    font-family: 'Shadows Into Light', cursive;
     font-size: 1.5vw;
     margin-bottom: 40px;
     margin-top: 30px;
@@ -680,7 +684,7 @@ a:focus, .btn:focus, .btn:active:focus, .btn.active:focus, .btn.focus, .btn:acti
     letter-spacing: 0.2vw;
   }
   .intro .intro-text h2 {
-    font-family: 'Sacramento', cursive;
+    font-family: 'Shadows Into Light', cursive;
     font-size: 4vw;
     color: white;
     margin-top: 20px;
