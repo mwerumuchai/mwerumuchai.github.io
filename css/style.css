@@ -644,7 +644,7 @@ a:focus, .btn:focus, .btn:active:focus, .btn.active:focus, .btn.focus, .btn:acti
 
 /* Media Queries */
 
-/*@media(min-width:360px) {
+/*@media(min-width:320px) {
   .modal-content {
     width: 339px;
   }
@@ -656,7 +656,7 @@ a:focus, .btn:focus, .btn:active:focus, .btn.active:focus, .btn.focus, .btn:acti
   }
 }*/
 
-@media(min-width:1280px) {
+/*@media(min-width:1280px) {
   .intro .name {
     margin-left: 15px;
     text-align: left;
@@ -684,7 +684,7 @@ a:focus, .btn:focus, .btn:active:focus, .btn.active:focus, .btn.focus, .btn:acti
     color: white;
     margin-top: 20px;
   }
-}
+}*/
 
 @media(min-width:768px) {
   /*.intro {
@@ -711,7 +711,7 @@ a:focus, .btn:focus, .btn:active:focus, .btn.active:focus, .btn.focus, .btn:acti
   }
   .intro .intro-text {
     max-width: 65%;
-    margin-left: 177px;
+    margin-left: -12px;
   }
   .intro .intro-text p {
     font-family: 'Shadows Into Light', cursive;
