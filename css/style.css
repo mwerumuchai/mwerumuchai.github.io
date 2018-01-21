@@ -20,6 +20,11 @@ h3, h4 {
   font-size: 50px;
 }
 
+#name {
+  font-family: 'Shadows Into Light', cursive;
+  font-size: 50px;
+}
+
 .web {
   font-family: 'Shadows Into Light', cursive;
   font-size: 40px;
@@ -108,9 +113,10 @@ hr {
 *  OPAQUE NAVBAR SECTION
 ***********************************************************************/
 
+/*
 .opaque-navbar {
   background-color: rgba(0, 0, 0, 0.5);
-  /*Transparent=rgba(0, 0, 0, 0) / Translucent=(0, 0, 0, 0.5) height: 60px;*/
+  Transparent=rgba(0, 0, 0, 0) / Translucent=(0, 0, 0, 0.5) height: 60px;
   border-bottom: 0px;
   transition: background-color .5s ease 0s;
 }
@@ -134,21 +140,20 @@ ul.dropdown-menu {
     height: 60px;
     transition: background-color .5s ease 0s;
   }
-}
+}*/
 
 /***********************************************************************
 *  END OPAQUE NAVBAR SECTION
 ***********************************************************************/
 
-/*.navbar-custom {
-  margin-bottom: -16px;
-  /* background-color: #121d1f; */
+.navbar-custom {
+  margin-bottom: 0;
+  background-color: #121d1f;
+  border-radius: 0px;
+  padding: 7px 0;
+}
 
-/*border-radius: 0px;
-padding: 59px 0;
-}*/
-
-*/ .navbar-custom .navbar-brand {
+.navbar-custom .navbar-brand {
   font-weight: 600;
 }
 
@@ -167,7 +172,7 @@ padding: 59px 0;
 }
 
 .navbar-custom a {
-  color: #121d1f;
+  color: #fff;
 }
 
 .navbar-custom .nav li a {
@@ -236,12 +241,28 @@ padding: 59px 0;
   margin-right: 10px;
 }
 
-/*.container {
-  padding-right: 71px;
-  padding-left: 35px;
-  margin-right: auto;
-  margin-left: auto;
-}*/
+.fa-chevron-down:before {
+  content: "\f078";
+  color: #fff;
+  font-size: 39px;
+}
+
+/*modal*/
+
+.modal {
+  position: fixed;
+  top: 64px;
+  right: 1px;
+  bottom: 0;
+  left: 0;
+  z-index: 1050;
+  display: none;
+  overflow: hidden;
+  -webkit-overflow-scrolling: touch;
+  outline: 0;
+}
+
+#modal-container {}
 
 /* Home Section */
 
@@ -249,9 +270,7 @@ padding: 59px 0;
   display: table;
   width: 100%;
   height: 100vh;
-  margin-bottom: 7px;
-  margin-top: -73px;
-  /*padding: 100px 0;*/
+  padding: 100px 0;
   text-align: center;
   color: #fff;
   background: linear-gradient( rgba(0, 0, 0, 0.45), rgba(0, 0, 0, 0.45)), url(../img/me.jpg) no-repeat center top;
@@ -270,7 +289,7 @@ padding: 59px 0;
 /* About Section */
 
 #about {
-  padding-top: 107px;
+  padding-top: 91px;
   padding-bottom: 184px;
   background: #f4f5f6;
   /*margin-top: -8px;*/
@@ -341,7 +360,7 @@ padding: 59px 0;
 
 .btn {
   display: inline-block;
-  padding: 74px 84px;
+  padding: 74px 30px;
   margin-bottom: 0;
 }
 
@@ -639,48 +658,6 @@ a:focus, .btn:focus, .btn:active:focus, .btn.active:focus, .btn.focus, .btn:acti
 }
 
 /* Media Queries */
-
-/*@media(min-width:320px) {
-  .modal-content {
-    width: 339px;
-  }
-}*/
-
-/*@media(min-width:412px) {
-  .modal-content {
-    margin-right: 75px;
-  }
-}*/
-
-/*@media(min-width:1280px) {
-  .intro .name {
-    margin-left: 15px;
-    text-align: left;
-    padding-left: 76px;
-  }
-  .intro .web {
-    margin-left: 15px;
-    padding-left: 76px;
-  }
-  .intro .intro-text {
-    max-width: 65%;
-    margin-left: 177px;
-  }
-  .intro .intro-text p {
-    font-family: 'Shadows Into Light', cursive;
-    font-size: 1.5vw;
-    margin-bottom: 40px;
-    margin-top: 30px;
-    color: white;
-    letter-spacing: 0.2vw;
-  }
-  .intro .intro-text h2 {
-    font-family: 'Shadows Into Light', cursive;
-    font-size: 4vw;
-    color: white;
-    margin-top: 20px;
-  }
-}*/
 
 @media(min-width:768px) {
   /*.intro {
