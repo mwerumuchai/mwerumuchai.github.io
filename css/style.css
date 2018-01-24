@@ -22,7 +22,7 @@ h3, h4 {
 
 #name {
   font-family: 'Shadows Into Light', cursive;
-  font-size: 50px;
+  font-size: 60px;
 }
 
 .web {
@@ -878,6 +878,25 @@ a:focus, .btn:focus, .btn:active:focus, .btn.active:focus, .btn.focus, .btn:acti
     font-size: 5vw;
     color: white;
     margin-top: 20px;
+  }
+  .name {
+    font-family: 'Shadows Into Light', cursive;
+    font-size: 50px;
+  }
+  .web {
+    font-family: 'Shadows Into Light', cursive;
+    font-size: 40px;
+  }
+  #name {
+    font-family: 'Shadows Into Light', cursive;
+    font-size: 75px;
+    font-weight: 500;
+    margin-left: 20px;
+  }
+  .btn {
+    display: inline-block;
+    padding: 38px 83px;
+    margin-bottom: 0;
   }
   .timeline>li .timeline-panel {
     padding: 10px 20px 20px 100px;
