@@ -8,13 +8,6 @@
     <meta name="description" content="">
     <meta name="author" content="">
 
-    <!-- Favicons
-    ================================================== -->
-    <link rel="shortcut icon" href="img/favicon.ico" type="image/x-icon">
-    <link rel="apple-touch-icon" href="img/apple-touch-icon.png">
-    <link rel="apple-touch-icon" sizes="72x72" href="img/apple-touch-icon-72x72.png">
-    <link rel="apple-touch-icon" sizes="114x114" href="img/apple-touch-icon-114x114.png">
-
     <!-- Bootstrap -->
     <link rel="stylesheet" type="text/css" href="css/bootstrap.css">
     <link rel="stylesheet" type="text/css" href="fonts/font-awesome/css/font-awesome.css">
@@ -29,6 +22,7 @@
     <script type="text/javascript" src="js/modernizr.custom.js"></script>
     <link href="https://maxcdn.bootstrapcdn.com/font-awesome/4.7.0/css/font-awesome.min.css" rel="stylesheet" integrity="sha384-wvfXpqpZZVQGK6TAh5PVlGOfQNHSoD2xbE+QkPxCAFlNEevoEH3Sl0sibVcOQVnN" crossorigin="anonymous">
     <link href="https://fonts.googleapis.com/css?family=Shadows+Into+Light" rel="stylesheet">
+    <link rel="shortcut icon" type="image/png" href="img/me.jpg">
 
   </head>
 
@@ -36,14 +30,16 @@
     <!-- Header -->
     <header id="header">
       <div class="intro">
-        <div class="container-fluid">
+        <div class="container-fluid" id="cfluid">
           <div class="intro-text">
             <h2 class="text-left" id="name">Hello,</h2>
             <h2 class="name">I'm Esther Muchai</h2>
             <h3 class="web">Web Developer/Designer</h3>
+          </div> <br>
+          <div class="container" id="icon">
+            <a class="page-scroll" href="#nav" aria-hidden="true"><i class="fa fa-chevron-down bounce"></i></a>
           </div>
-        </div> <br>
-        <a class="page-scroll" href="#about" aria-hidden="true"><i class="fa fa-chevron-down bounce"></i></a>
+        </div>
       </div>
     </header>
 
@@ -53,7 +49,7 @@
         <div class="container">
           <div class="navbar-header">
             <button type="button" class="navbar-toggle" data-toggle="collapse" data-target=".navbar-main-collapse"> <i class="fa fa-bars"></i> </button>
-            <a class="navbar-brand page-scroll" href="#page-top">Home</a> </div>
+            <a class="navbar-brand page-scroll" href="#page-top">HOME</a> </div>
 
           <!-- Collect the nav links, forms, and other content for toggling -->
           <div class="collapse navbar-collapse navbar-right navbar-main-collapse">
@@ -101,7 +97,7 @@
         <div class="row">
           <div class="col-md-6">
             <h2><strong>Front-End Developer</strong></h2>
-            <h3>I have developed, maintained and launched various projects by using CSS3, Bootstrap, HTML5 and Javascript. Knowledge of open source JS libraries like jQuery </h3>
+            <h3>I have developed, maintained and launched various projects by using CSS3, Bootstrap, HTML5 and Javascript. Knowledge of open source JS libraries like jQuery </h3> <br>
             <h2><strong>Back-end Developer</strong></h2>
             <h3>Incorporated Python frameworks in my projects such as Django and Flask</h3>
           </div>
@@ -235,6 +231,106 @@
                 </div>
               </div>
             </div>
+          </div> <br>
+          <!-- Project 4 -->
+          <a class="btn" href="#" type="button" class="btn btn-primary btn-lg" data-toggle="modal" data-target="#exampleModal4">
+            <div class="portfolio-item">
+              <div class="hover-bg">
+                <i class="fa fa-instagram" style="font-size: 200px;" aria-hidden="true"></i>
+                <h4>Instagram-Clone</h4>
+              </div>
+            </div>
+          </a>
+
+          <!-- Modal -->
+          <div class="modal fade" id="exampleModal4" tabindex="-5" role="dialog" aria-labelledby="exampleModalLabel" aria-hidden="true" height="90px" width="650px">
+            <div class="modal-dialog" role="document">
+              <div class="modal-content">
+                <div class="modal-header"> <br>
+                  <h5 class="modal-title" id="exampleModalLabel">Instagram-Clone</h5>
+                </div> <br>
+                <div class="modal-body">
+                  <img src="img/projects/instagram.png" title="Technologies used: Django, Heroku, HTML, CSS,Postgresql" rel="prettyPhoto" width="550" class="img-responsive">
+                  <H4>This is a cloned web application for instagram where users can upload photos,download photos from other users and follow other people.</H4>
+                  <H4>Technologies used: Django, Heroku, HTML, CSS, Postgresql</H4>
+                  <H4><a href="https://github.com/mwerumuchai/instagram-clone" target="_blank"><i class="fa fa-github"></i> <span class="site">
+                <a href="https://the-gram-by-mweru.herokuapp.com/" target="_blank">View Site</a></H4>
+                  </span>
+                </div>
+                <div class=" modal-footer">
+                  <button type="button" class="close" data-dismiss="modal" aria-label="Close">
+                    <span aria-hidden="true">&times;</span>
+                  </button>
+                </div>
+              </div>
+            </div>
+          </div>
+          <!-- Project 5 -->
+          <a class="btn" href="#" type="button" class="btn btn-primary btn-lg" data-toggle="modal" data-target="#exampleModal5">
+            <div class="portfolio-item">
+              <div class="hover-bg">
+                <i class="fa fa-microphone" style="font-size: 200px;" aria-hidden="true"></i>
+                <h4>One Minute Pitch</h4>
+              </div>
+            </div>
+          </a>
+
+          <!-- Modal -->
+          <div class="modal fade" id="exampleModal5" tabindex="-5" role="dialog" aria-labelledby="exampleModalLabel" aria-hidden="true" height="90px" width="650px">
+            <div class="modal-dialog" role="document">
+              <div class="modal-content">
+                <div class="modal-header"> <br>
+                  <h5 class="modal-title" id="exampleModalLabel">One Minute Pitch</h5>
+                </div> <br>
+                <div class="modal-body">
+                  <img src="img/projects/One-Minute-pitch.png" title="Technologies used: Django, Heroku, HTML, CSS,Postgresql" rel="prettyPhoto" width="550" class="img-responsive">
+                  <H4>This is a web application that allows various users to submit a short pitch.</H4>
+                  <H4>Technologies used: Django, Heroku, HTML, CSS, Postgresql</H4>
+                  <H4><a href="https://github.com/mwerumuchai/one-minute-pitch" target="_blank"><i class="fa fa-github"></i> <span class="site">
+                <a href="https://minute-pitch.herokuapp.com/" target="_blank">View Site</a></H4>
+                  </span>
+                </div>
+                <div class=" modal-footer">
+                  <button type="button" class="close" data-dismiss="modal" aria-label="Close">
+                    <span aria-hidden="true">&times;</span>
+                  </button>
+                </div>
+              </div>
+            </div>
+          </div>
+
+          <!-- Project 6 -->
+          <a class="btn" href="#" type="button" class="btn btn-primary btn-lg" data-toggle="modal" data-target="#exampleModal6">
+            <div class="portfolio-item">
+              <div class="hover-bg">
+                <i class="fa fa-commenting" style="font-size: 200px;" aria-hidden="true"></i>
+                <h4>Message Board</h4>
+              </div>
+            </div>
+          </a>
+
+          <!-- Modal -->
+          <div class="modal fade" id="exampleModal6" tabindex="-5" role="dialog" aria-labelledby="exampleModalLabel" aria-hidden="true" height="90px" width="650px">
+            <div class="modal-dialog" role="document">
+              <div class="modal-content">
+                <div class="modal-header"> <br>
+                  <h5 class="modal-title" id="exampleModalLabel">Message Board</h5>
+                </div> <br>
+                <div class="modal-body">
+                  <img src="img/projects/messageboard.png" title="Technologies used: Django, Heroku, HTML, CSS,Postgresql" rel="prettyPhoto" width="550" class="img-responsive">
+                  <H4>Welcome to TRIVIA Q&A. Our quizes provide great information and important facts for kids,teens and adults alike. Test your knowledge!!! Users can add questions, edit them and also answer questions.</H4>
+                  <H4>Technologies used: Django, Heroku, HTML, CSS, Postgresql</H4>
+                  <H4><a href="https://github.com/mwerumuchai/message-board" target="_blank"><i class="fa fa-github"></i> <span class="site">
+                <a href="https://message-boards-36118.firebaseapp.com/" target="_blank">View Site</a></H4>
+                  </span>
+                </div>
+                <div class=" modal-footer">
+                  <button type="button" class="close" data-dismiss="modal" aria-label="Close">
+                    <span aria-hidden="true">&times;</span>
+                  </button>
+                </div>
+              </div>
+            </div>
           </div>
         </div>
       </div>
@@ -259,7 +355,11 @@
     <div id="footer">
       <div class="container text-center">
         <div class="fnav">
-          <p>Copyright &copy; 2017 Esther Muchai. All rights reserved.</p>
+          &#9400; Copyright
+          <script>
+            var theDate = new Date();
+            document.write(theDate.getFullYear());
+          </script> Esther Muchai. All rights reserved.
         </div>
       </div>
     </div>
@@ -267,8 +367,6 @@
     <script type="text/javascript " src="js/bootstrap.js "></script>
     <script type="text/javascript " src="js/SmoothScroll.js "></script>
     <script type="text/javascript " src="js/jquery.prettyPhoto.js "></script>
-    <script type="text/javascript " src="js/jquery.isotope.js "></script>
-    <script type="text/javascript " src="js/jquery.counterup.js "></script>
     <script type="text/javascript " src="js/waypoints.js "></script>
     <script type="text/javascript " src="js/jqBootstrapValidation.js "></script>
     <script type="text/javascript " src="js/contact_me.js "></script>
